@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
-//Name: Stewart_Skinning_JB.0003.ma
-//Last modified: Fri, Apr 28, 2017 11:26:15 AM
+//Name: Stewart_Skinning_JBerrio.ma
+//Last modified: Fri, Apr 28, 2017 11:26:38 AM
 //Codeset: 1252
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -15,8 +15,8 @@ fileInfo "osv" "Microsoft Windows 7 Enterprise Edition, 64-bit Windows 7 Service
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "C2D5EB74-4661-3816-599C-6BADC8C6E251";
-	setAttr ".t" -type "double3" 343.63622905899831 226.15100991362738 403.44307614571062 ;
-	setAttr ".r" -type "double3" 1065.8616472702611 -2481.7999999999115 -360.00000000018332 ;
+	setAttr ".t" -type "double3" 219.77345401156941 209.72290876433979 479.96111688553924 ;
+	setAttr ".r" -type "double3" 1067.6616472703133 -2497.7999999999065 -360.00000000015507 ;
 	setAttr ".rp" -type "double3" -7.1054273576010019e-015 -1.4210854715202004e-014 
 		-1.1368683772161603e-013 ;
 	setAttr ".rpt" -type "double3" 5.0024470889042915e-015 1.7136764275232449e-014 -1.0482880596710822e-015 ;
@@ -38983,4 +38983,4 @@ connectAttr "groupId21.msg" ":defaultLastHiddenSet.gn" -na;
 connectAttr "groupId22.msg" ":defaultLastHiddenSet.gn" -na;
 connectAttr "stw_anim_body_geoShape.iog.og[10]" ":defaultLastHiddenSet.dsm" -na;
 connectAttr "stw_anim_eyes_geoShape.iog.og[10]" ":defaultLastHiddenSet.dsm" -na;
-// End of Stewart_Skinning_JB.0003.ma
+// End of Stewart_Skinning_JBerrio.ma
